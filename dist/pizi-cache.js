@@ -68,19 +68,15 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // Get cache API
 var appCache = window.applicationCache;
 
 // Return pizi-cache object
-exports.default = {
+/* harmony default export */ __webpack_exports__["default"] = ({
     getStatus: function getStatus() {
         var status = 'UKNOWN CACHE STATUS';
         switch (appCache.status) {
@@ -127,7 +123,7 @@ exports.default = {
             }, false);
         }, false);
     }
-};
+});
 
 /***/ })
 /******/ ]);
