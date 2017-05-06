@@ -2,7 +2,7 @@
 let appCache = window.applicationCache;
 
 // Return pizi-cache object
-export default {
+module.exports = {
     getStatus() {
         let status = 'UKNOWN CACHE STATUS';
         switch (appCache.status) {
