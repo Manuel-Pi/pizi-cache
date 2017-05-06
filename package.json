@@ -2,7 +2,7 @@
     "name": "pizi-cache",
     "version": "0.0.1",
     "description": "Manage browser cache",
-    "main": "pizi-cache.js",
+    "main": "dist/pizi-cache.js",
     "scripts": {
         "test": "test",
         "build": "webpack"
