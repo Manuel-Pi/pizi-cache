@@ -6,11 +6,16 @@ const PATH = {
     DIST: path.resolve(__dirname, 'dist'),
 };
 
+const LIB = 'pizi-cache';
+
 module.exports = {
     entry: './src/pizi-cache.js',
     output: {
-        filename: 'pizi-cache.js',
-        path: PATH.DIST
+        filename: LIB + '.js',
+        path: PATH.DIST,
+        library: LIB,
+        libraryTarget: 'umd',
+        umdNamedDefine: true,
     },
     module: {
         rules: [{
