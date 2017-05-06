@@ -1,0 +1,11 @@
+{
+  "name": "pizi-cache",
+  "version": "0.0.1",
+  "description": "Manage browser cache",
+  "main": "pizi-cache.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Manuel-Pi",
+  "license": "ISC"
+}
